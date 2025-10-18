@@ -1,48 +1,58 @@
 # Nile eCommerce Review Prediction
 
-## Overview
+## Project Summary
 
-This project predicts which customers of "Nile," a major South American eCommerce platform, are most likely to leave positive reviews. The aim is to optimize targeting strategies for improving customer engagement and operational efficiency using machine learning.
+This repository features a predictive analytics project focused on the "Nile" eCommerce platform, aiming to forecast which customers are likely to leave positive reviews. By uncovering actionable insights from customer, order, and payment data, the project supports improved marketing and engagement strategies.
 
-## Features
+## Key Components
 
-- Utilizes a multi-table dataset (customer, order, payment, etc.)
-- Applies the CRISP-DM data science methodology
-- Exploratory Data Analysis (EDA) to detect key patterns
-- Built, tuned & compared Random Forest and Gradient Boosted Decision Tree (GBDT) models
-- Achieved an F1 score of 0.86 in predicting positive reviews
-- Visualized insights in Tableau and presented actionable recommendations
+- Multi-table integration: Customer reviews, order details, payments, and more.
+- Data pipeline: Cleaning, feature engineering, and exploratory analysis using the CRISP-DM framework.
+- Modelling: Random Forest and Gradient Boosted Decision Tree (GBDT) algorithms evaluated for review prediction.
+- Performance: Achieved an F1 score of 0.86 on positive review classification.
+- Visualization: Tableau dashboards provide insights into review patterns and geographic trends.
 
-## Data
+## Workflow
 
-Eight tables: customer reviews, order details, payments, products, and more. Data cleaning, feature engineering, and encoding operations performed to enhance predictive capability.
+1. **Data Preparation**  
+   Cleaned and merged eight tables. Performed advanced feature engineering (delivery timing, payment type, frequency).
 
-## Methodology
+2. **Exploratory Data Analysis**  
+   Analyzed feature relationships like the impact of delivery times and payment methods on review outcomes.
 
-- **CRISP-DM Framework**:
-  - Data understanding and preparation
-  - EDA for trends, outliers, and feature significance
-  - Feature engineering (delivery times, payment types, demographic info, etc.)
-  - Model training with class imbalance handling
-  - Random search for hyperparameter optimisation
-  - Metrics: F1, precision, recall, accuracy
+3. **Model Development**  
+   - Compared Random Forest and GBDT.
+   - Tuned hyperparameters and addressed class imbalance.
+   - Validated results on test data.
 
-## Results
+4. **Insights and Reporting**  
+   - Identified key factors affecting review positivity.
+   - Presented findings to stakeholders via Tableau visualizations and technical presentations.
 
-- Random Forest outperformed GBDT (macro F1: 0.86 on positive reviews)
-- Influential features: overdue delivery days, payment amounts, order frequency
-- Visualizations highlight review patterns by region and time
+## Main Findings
 
-## Recommendations
+- Reliable delivery and efficient payment handling strongly correlate with positive reviews.
+- Targeting customers with timely deliveries and preferred payment methods increases positive feedback.
+- Regular model retraining helps adapt to new trends.
 
-- Improve delivery reliability for better customer reviews
-- Streamline overlapping product categories for clearer analytics
-- Provide targeted incentives to customers likely to leave positive reviews
-- Continuously update and retrain model with new data
+## Usage
 
-## Deployment
+- Place cleaned data in the `/data` folder.
+- Review EDA and modelling steps in `/notebooks`.
+- Generate business visualizations from `/visualizations`.
+- Deploy predictive models using scripts in `/models`.
 
-Model can be integrated via microservices, enabling real-time analytics and automated outreach to high-potential reviewers.
+## Structure
 
-## Project Structure
+/data # Source and cleaned datasets
+/notebooks # Jupyter notebooks for analytics and ML
+/models # Model training and evaluation scripts
+/visualizations # Tableau outputs and figures
 
+## Team
+
+Developed collaboratively as a university project by data science and analytics students.
+
+## License
+
+This project is open for educational and non-commercial use.
