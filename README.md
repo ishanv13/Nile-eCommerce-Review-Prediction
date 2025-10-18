@@ -50,10 +50,11 @@ This repository features a predictive analytics project focused on the "Nile" eC
 
 ## Project Structure
 
-/data           # Source and cleaned datasets
-/notebooks      # Jupyter notebooks for exploratory analytics and machine learning
-/models         # Scripts for model training, evaluation, and deployment
-/visualizations # Tableau dashboards and generated figures
+/data           # Source and cleaned datasets  
+/notebooks      # Jupyter notebooks for analytics and ML  
+/models         # Model training and evaluation scripts  
+/visualizations # Tableau outputs and figures  
+
 
 
 ## Team
