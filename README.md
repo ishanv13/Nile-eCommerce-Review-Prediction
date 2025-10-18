@@ -37,17 +37,24 @@ This repository features a predictive analytics project focused on the "Nile" eC
 
 ## Usage
 
-- Place cleaned data in the `/data` folder.
-- Review EDA and modelling steps in `/notebooks`.
-- Generate business visualizations from `/visualizations`.
-- Deploy predictive models using scripts in `/models`.
+- Download or clone the repository from [GitHub](https://github.com/ishanv13/Nile-eCommerce-Review-Prediction/tree/main).
+- Place the cleaned dataset files in the `/data` directory.
+- Run `Cleaning and Merging Codebase.py` for initial data preparation.
+- Execute `Modelling Code.py` to train and evaluate the predictive models.
+- Explore EDA and modeling steps with the Jupyter notebooks in `/notebooks`.
+- Generate and view business visualizations from the `/visualizations` directory.
+- Review the project report (`Nile eCommerce Review Prediction Review.pdf`) for a comprehensive summary of findings and recommendations.
 
-## Structure
+> **Note:** For best results, use a Python 3.x environment with all necessary packages installed (see script requirements).
 
-/data # Source and cleaned datasets
-/notebooks # Jupyter notebooks for analytics and ML
-/models # Model training and evaluation scripts
-/visualizations # Tableau outputs and figures
+
+## Project Structure
+
+/data           # Source and cleaned datasets
+/notebooks      # Jupyter notebooks for exploratory analytics and machine learning
+/models         # Scripts for model training, evaluation, and deployment
+/visualizations # Tableau dashboards and generated figures
+
 
 ## Team
 
