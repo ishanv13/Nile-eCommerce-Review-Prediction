@@ -47,15 +47,12 @@ This repository features a predictive analytics project focused on the "Nile" eC
 
 > **Note:** For best results, use a Python 3.x environment with all necessary packages installed (see script requirements).
 
-
 ## Project Structure
-
-/data           # Source and cleaned datasets  
-/notebooks      # Jupyter notebooks for analytics and ML  
-/models         # Model training and evaluation scripts  
-/visualizations # Tableau outputs and figures  
-
-
+.
+├── data/            # Source and cleaned datasets
+├── notebooks/       # Jupyter notebooks for analytics and ML
+├── models/          # Model training and evaluation scripts
+└── visualizations/  # Tableau outputs and figures
 
 ## Team
 
